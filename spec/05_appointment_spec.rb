@@ -19,7 +19,7 @@ describe "Appointment" do
       doctor_who = Doctor.new("The Doctor")
       hevydevy = Patient.new("Devin Townsend")
 
-      expect{Appointment.new(uary 32nd""Friday, Jan, hevydevy, doctor_who)}.to_not raise_error
+      expect{Appointment.new("Friday, January 32nd", hevydevy, doctor_who)}.to_not raise_error
     end
   end
 
